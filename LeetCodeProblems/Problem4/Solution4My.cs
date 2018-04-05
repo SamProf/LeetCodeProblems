@@ -10,9 +10,20 @@ namespace LeetCodeProblems.Problem4
     {
         public double FindMedianSortedArrays(int[] nums1, int[] nums2)
         {
-            var a = new int[nums1.Length + nums2.Length];
+            var length = nums1.Length + nums2.Length;
+            var index = length / 2;
+            var count = 1;
+            if (length % 2 == 0)
+            {
+                index--;
+                count++;
+            }
+
+            var sum = 0d;
+
             var i1 = 0;
             var i2 = 0;
+            int v;
             while (true)
             {
                 if (i1 < nums1.Length)
@@ -21,18 +32,18 @@ namespace LeetCodeProblems.Problem4
                     {
                         if (nums1[i1] <= nums2[i2])
                         {
-                            a[i1 + i2] = nums1[i1];
+                            v = nums1[i1];
                             i1++;
                         }
                         else
                         {
-                            a[i1 + i2] = nums2[i2];
+                            v = nums2[i2];
                             i2++;
                         }
                     }
                     else
                     {
-                        a[i1 + i2] = nums1[i1];
+                        v = nums1[i1];
                         i1++;
                     }
                 }
@@ -40,7 +51,7 @@ namespace LeetCodeProblems.Problem4
                 {
                     if (i2 < nums2.Length)
                     {
-                        a[i1 + i2] = nums2[i2];
+                        v = nums2[i2];
                         i2++;
                     }
                     else
@@ -48,17 +59,18 @@ namespace LeetCodeProblems.Problem4
                         break;
                     }
                 }
+
+                if (i1 + i2 >= index + 1)
+                {
+                    sum += v;
+                    if (i1 + i2 >= index + count)
+                    {
+                        break;
+                    }
+                }
             }
 
-            var index = a.Length / 2;
-            if (a.Length % 2 == 0)
-            {
-                return (a[index] + a[index - 1]) / 2d;
-            }
-            else
-            {
-                return (a[index]);
-            }
+            return sum / count;
         }
     }
 }
