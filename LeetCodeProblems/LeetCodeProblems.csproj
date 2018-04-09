@@ -56,6 +56,8 @@
     <Compile Include="Problem3\Tests3.cs" />
     <Compile Include="Problem4\Solution4My.cs" />
     <Compile Include="Problem4\Tests4.cs" />
+    <Compile Include="Problem7\Solution7.cs" />
+    <Compile Include="Problem7\Tests7.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
