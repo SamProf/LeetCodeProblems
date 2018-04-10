@@ -21,5 +21,14 @@ namespace LeetCodeProblems.Problem7
             Assert.AreEqual(-321, solver.Reverse(-123));
             Assert.AreEqual(21, solver.Reverse(120));
         }
+
+
+//        [Test]
+//        public void Play()
+//        {
+//            Console.WriteLine(int.MaxValue);
+//            Console.WriteLine(int.MinValue);
+//
+//        }
     }
 }

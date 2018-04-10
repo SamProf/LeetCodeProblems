@@ -10,25 +10,27 @@ namespace LeetCodeProblems.Problem7
     {
         public int Reverse(int x)
         {
-            if (x < -1 * int.MaxValue)
+            if (x == int.MinValue)
             {
                 return 0;
             }
 
             var r = 0;
-            var x2 = Math.Abs(x);
-            while (x2 != 0)
+            var s = Math.Sign(x);
+            x = Math.Abs(x);
+            while (x != 0)
             {
-                if (r > (int.MaxValue - (x2 % 10)) / 10)
+                var d = x % 10;
+                if (r > (int.MaxValue - d) / 10)
                 {
                     return 0;
                 }
-                r = r * 10 + (x2 % 10);
-                x2 /= 10;
+
+                r = r * 10 + d;
+                x /= 10;
             }
 
-            r *= Math.Sign(x);
-            return r;
+            return r * s;
         }
     }
 }
