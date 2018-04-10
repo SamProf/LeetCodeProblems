@@ -57,10 +57,7 @@
                 if (i1 + i2 >= index + 1)
                 {
                     sum += v;
-                    if (i1 + i2 >= index + count)
-                    {
-                        break;
-                    }
+                    if (i1 + i2 >= index + count) break;
                 }
             }
 

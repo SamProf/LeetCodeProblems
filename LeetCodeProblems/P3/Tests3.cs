@@ -2,7 +2,7 @@
 
 namespace LeetCodeProblems.P3
 {
-    [TestFixture()]
+    [TestFixture]
     public class Tests3
     {
         private void Test(ISolution3 solution)

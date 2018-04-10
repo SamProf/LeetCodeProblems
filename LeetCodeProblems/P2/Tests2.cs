@@ -2,7 +2,7 @@
 
 namespace LeetCodeProblems.P2
 {
-    [TestFixture()]
+    [TestFixture]
     public class Tests2
     {
         [Test]

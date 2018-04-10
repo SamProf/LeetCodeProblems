@@ -46,18 +46,64 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="P100\Solution100.cs" />
+    <Compile Include="P100\Tests100.cs" />
+    <Compile Include="P101\Solution101.cs" />
+    <Compile Include="P104\Solution104.cs" />
+    <Compile Include="P13\Solution13.cs" />
+    <Compile Include="P13\Tests13.cs" />
+    <Compile Include="P14\Solution14.cs" />
+    <Compile Include="P14\Tests14.cs" />
     <Compile Include="P1\Solution1.cs" />
     <Compile Include="P1\Tests1.cs" />
+    <Compile Include="P20\Solution20.cs" />
+    <Compile Include="P20\Tests20.cs" />
+    <Compile Include="P21\Solution21.cs" />
+    <Compile Include="P21\Tests21.cs" />
+    <Compile Include="P27\Solution27.cs" />
+    <Compile Include="P27\Tests27.cs" />
+    <Compile Include="P26\Solution26.cs" />
+    <Compile Include="P26\Tests26.cs" />
+    <Compile Include="P28\Solution28.cs" />
+    <Compile Include="P28\Tests28.cs" />
     <Compile Include="P2\Solution2.cs" />
     <Compile Include="P2\Tests2.cs" />
+    <Compile Include="P35\Solution35.cs" />
+    <Compile Include="P35\Tests35.cs" />
+    <Compile Include="P38\Solution38.cs" />
+    <Compile Include="P38\Tests38.cs" />
     <Compile Include="P3\ISolution3.cs" />
     <Compile Include="P3\Solution3.cs" />
     <Compile Include="P3\Solution3My.cs" />
     <Compile Include="P3\Tests3.cs" />
     <Compile Include="P4\Solution4My.cs" />
     <Compile Include="P4\Tests4.cs" />
+    <Compile Include="P53\Solution53.cs" />
+    <Compile Include="P53\Tests53.cs" />
+    <Compile Include="P58\Solution58.cs" />
+    <Compile Include="P58\Tests58.cs" />
+    <Compile Include="P5\Solution5.cs" />
+    <Compile Include="P5\Tests5.cs" />
+    <Compile Include="P66\Solution66.cs" />
+    <Compile Include="P66\Tests66.cs" />
+    <Compile Include="P67\Solution67.cs" />
+    <Compile Include="P67\Tests67.cs" />
+    <Compile Include="P69\Solution69.cs" />
+    <Compile Include="P69\Tests69.cs" />
+    <Compile Include="P6\Solution6.cs" />
+    <Compile Include="P6\Tests6.cs" />
+    <Compile Include="P70\Solution70.cs" />
+    <Compile Include="P70\Tests70.cs" />
     <Compile Include="P7\Solution7.cs" />
     <Compile Include="P7\Tests7.cs" />
+    <Compile Include="P83\Solution83.cs" />
+    <Compile Include="P83\Tests83.cs" />
+    <Compile Include="P88\Solution88.cs" />
+    <Compile Include="P88\Tests88.cs" />
+    <Compile Include="P8\Solution8.cs" />
+    <Compile Include="P8\Tests8.cs" />
+    <Compile Include="P9\Solution9.cs" />
+    <Compile Include="P9\Tests9.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -68,5 +114,6 @@
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

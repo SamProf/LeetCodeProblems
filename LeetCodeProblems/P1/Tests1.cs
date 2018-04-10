@@ -9,7 +9,7 @@ namespace LeetCodeProblems.P1
         public void Test1()
         {
             var solver = new Solution1();
-            Assert.AreEqual(new int[] {0, 1}, solver.TwoSum(new int[] {2, 7, 11, 15}, 9));
+            Assert.AreEqual(new[] {0, 1}, solver.TwoSum(new[] {2, 7, 11, 15}, 9));
         }
     }
 }

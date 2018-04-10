@@ -4,9 +4,9 @@
     {
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
-            ListNode root = new ListNode(0);
-            ListNode cur = root;
-            int sum = 0;
+            var root = new ListNode(0);
+            var cur = root;
+            var sum = 0;
             while (l1 != null || l2 != null || sum != 0)
             {
                 if (l1 != null)
@@ -32,8 +32,8 @@
 
         public class ListNode
         {
-            public int val;
             public ListNode next;
+            public int val;
 
             public ListNode(int x)
             {

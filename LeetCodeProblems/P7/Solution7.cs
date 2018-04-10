@@ -6,10 +6,7 @@ namespace LeetCodeProblems.P7
     {
         public int Reverse(int x)
         {
-            if (x == int.MinValue)
-            {
-                return 0;
-            }
+            if (x == int.MinValue) return 0;
 
             var r = 0;
             var s = Math.Sign(x);
@@ -17,10 +14,7 @@ namespace LeetCodeProblems.P7
             while (x != 0)
             {
                 var d = x % 10;
-                if (r > (int.MaxValue - d) / 10)
-                {
-                    return 0;
-                }
+                if (r > (int.MaxValue - d) / 10) return 0;
 
                 r = r * 10 + d;
                 x /= 10;
