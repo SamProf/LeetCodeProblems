@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace LeetCodeProblems.Problem3
+namespace LeetCodeProblems.P3
 {
     public class Solution3 : ISolution3
     {

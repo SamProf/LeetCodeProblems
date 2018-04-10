@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NUnit.Framework;
-using NUnit.Framework.Internal;
+﻿using NUnit.Framework;
 
-namespace LeetCodeProblems.Problem2
+namespace LeetCodeProblems.P2
 {
     [TestFixture()]
     public class Tests2

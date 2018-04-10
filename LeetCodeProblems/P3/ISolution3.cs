@@ -1,4 +1,4 @@
-﻿namespace LeetCodeProblems.Problem3
+﻿namespace LeetCodeProblems.P3
 {
     public interface ISolution3
     {

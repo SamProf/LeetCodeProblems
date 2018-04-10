@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LeetCodeProblems.Problem3
+namespace LeetCodeProblems.P3
 {
     public class Solution3My : ISolution3
     {
