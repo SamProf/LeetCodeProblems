@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="Core\Array.cs" />
     <Compile Include="Core\ListNode.cs" />
+    <Compile Include="IQ542597\SolutionIQ542597.cs" />
+    <Compile Include="IQ542597\TestIQ542597.cs" />
     <Compile Include="P100\Solution100.cs" />
     <Compile Include="P100\Tests100.cs" />
     <Compile Include="P101\Solution101.cs" />
