@@ -38,6 +38,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,6 +49,10 @@
   <ItemGroup>
     <Compile Include="Core\Array.cs" />
     <Compile Include="Core\ListNode.cs" />
+    <Compile Include="IQ411357\ISolutionIQ411357.cs" />
+    <Compile Include="IQ411357\SolutionIQ411357.cs" />
+    <Compile Include="IQ411357\SolutionIQ411357_NOT_MY_BSF.cs" />
+    <Compile Include="IQ411357\TestIQ411357.cs" />
     <Compile Include="IQ542597\SolutionIQ542597.cs" />
     <Compile Include="IQ542597\TestIQ542597.cs" />
     <Compile Include="P100\Solution100.cs" />
