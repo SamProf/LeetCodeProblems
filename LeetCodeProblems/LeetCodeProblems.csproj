@@ -128,6 +128,8 @@
     <Compile Include="P88\Tests88.cs" />
     <Compile Include="P8\Solution8.cs" />
     <Compile Include="P8\Tests8.cs" />
+    <Compile Include="P994\SolutionP994.cs" />
+    <Compile Include="P994\TestP994.cs" />
     <Compile Include="P9\Solution9.cs" />
     <Compile Include="P9\Tests9.cs" />
     <Compile Include="Program.cs" />
