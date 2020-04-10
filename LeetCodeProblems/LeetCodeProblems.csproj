@@ -110,6 +110,8 @@
     <Compile Include="P66\Tests66.cs" />
     <Compile Include="P67\Solution67.cs" />
     <Compile Include="P67\Tests67.cs" />
+    <Compile Include="P692\SolutionP692.cs" />
+    <Compile Include="P692\TestsP692.cs" />
     <Compile Include="P69\Solution69.cs" />
     <Compile Include="P69\Tests69.cs" />
     <Compile Include="P6\Solution6.cs" />
@@ -136,6 +138,5 @@
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
