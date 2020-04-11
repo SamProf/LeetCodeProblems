@@ -80,6 +80,8 @@
     <Compile Include="P19\Solution19.cs" />
     <Compile Include="P1\Solution1.cs" />
     <Compile Include="P1\Tests1.cs" />
+    <Compile Include="P200\SolutionP200.cs" />
+    <Compile Include="P200\TestsP200.cs" />
     <Compile Include="P20\Solution20.cs" />
     <Compile Include="P20\Tests20.cs" />
     <Compile Include="P21\Solution21.cs" />
@@ -136,6 +138,8 @@
     <Compile Include="P88\Tests88.cs" />
     <Compile Include="P8\Solution8.cs" />
     <Compile Include="P8\Tests8.cs" />
+    <Compile Include="P937\SolutionP937.cs" />
+    <Compile Include="P937\TestP937.cs" />
     <Compile Include="P994\SolutionP994.cs" />
     <Compile Include="P994\TestP994.cs" />
     <Compile Include="P9\Solution9.cs" />
