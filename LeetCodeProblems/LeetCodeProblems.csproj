@@ -130,6 +130,8 @@
     <Compile Include="P6\Tests6.cs" />
     <Compile Include="P70\Solution70.cs" />
     <Compile Include="P70\Tests70.cs" />
+    <Compile Include="P763\SolutionP763.cs" />
+    <Compile Include="P763\TestP763.cs" />
     <Compile Include="P7\Solution7.cs" />
     <Compile Include="P7\Tests7.cs" />
     <Compile Include="P83\Solution83.cs" />
