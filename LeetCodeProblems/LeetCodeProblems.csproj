@@ -60,6 +60,9 @@
     <Compile Include="P101\Solution101.cs" />
     <Compile Include="P104\Solution104.cs" />
     <Compile Include="P11\Solution1.cs" />
+    <Compile Include="P1268\ISolutionP1268.cs" />
+    <Compile Include="P1268\SolutionP1268.cs" />
+    <Compile Include="P1268\TestP1268.cs" />
     <Compile Include="P12\Solution12.cs" />
     <Compile Include="P12\Tests12.cs" />
     <Compile Include="P13\Solution13.cs" />
