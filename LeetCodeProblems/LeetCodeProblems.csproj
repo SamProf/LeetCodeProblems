@@ -49,6 +49,8 @@
   <ItemGroup>
     <Compile Include="Core\Array.cs" />
     <Compile Include="Core\ListNode.cs" />
+    <Compile Include="IQ373202\SolutionIQ373202.cs" />
+    <Compile Include="IQ373202\TestIQ373202.cs" />
     <Compile Include="IQ411357\ISolutionIQ411357.cs" />
     <Compile Include="IQ411357\SolutionIQ411357.cs" />
     <Compile Include="IQ411357\SolutionIQ411357_NOT_MY_BSF.cs" />
