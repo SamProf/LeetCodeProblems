@@ -51,6 +51,8 @@
     <Compile Include="Core\ListNode.cs" />
     <Compile Include="IQ344677\SolutionIQ344677.cs" />
     <Compile Include="IQ344677\TestIQ344677.cs" />
+    <Compile Include="IQ347457\SolutionIQ347457.cs" />
+    <Compile Include="IQ347457\TestIQ347457.cs" />
     <Compile Include="IQ373202\SolutionIQ373202.cs" />
     <Compile Include="IQ373202\TestIQ373202.cs" />
     <Compile Include="IQ411357\ISolutionIQ411357.cs" />
