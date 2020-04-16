@@ -17,7 +17,7 @@ namespace LeetCodeProblems.P1
                 dic[v] = i;
             }
 
-            throw new Exception("No result");
+            return null;
         }
     }
 }
