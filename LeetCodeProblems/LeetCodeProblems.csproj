@@ -73,6 +73,7 @@
     <Compile Include="P1268\TestP1268.cs" />
     <Compile Include="P12\Solution12.cs" />
     <Compile Include="P12\Tests12.cs" />
+    <Compile Include="P138\SolutionP138.cs" />
     <Compile Include="P13\Solution13.cs" />
     <Compile Include="P13\Tests13.cs" />
     <Compile Include="P14\Solution14.cs" />
