@@ -99,6 +99,8 @@
     <Compile Include="P22\Tests22.cs" />
     <Compile Include="P23\Solution23.cs" />
     <Compile Include="P23\Tests23.cs" />
+    <Compile Include="P240\SolutionP240.cs" />
+    <Compile Include="P240\TestP240.cs" />
     <Compile Include="P24\Solution24.cs" />
     <Compile Include="P24\Tests24.cs" />
     <Compile Include="P25\Solution25.cs" />
