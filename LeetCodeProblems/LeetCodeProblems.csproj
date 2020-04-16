@@ -55,6 +55,8 @@
     <Compile Include="IQ347457\TestIQ347457.cs" />
     <Compile Include="IQ356960\SolutionIQ356960.cs" />
     <Compile Include="IQ356960\TestIQ356960.cs" />
+    <Compile Include="IQ373006\SolutionIQ373006.cs" />
+    <Compile Include="IQ373006\TestIQ373006.cs" />
     <Compile Include="IQ373202\SolutionIQ373202.cs" />
     <Compile Include="IQ373202\TestIQ373202.cs" />
     <Compile Include="IQ411357\ISolutionIQ411357.cs" />
