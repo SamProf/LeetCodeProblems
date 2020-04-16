@@ -123,6 +123,7 @@
     <Compile Include="P4\Tests4.cs" />
     <Compile Include="P53\Solution53.cs" />
     <Compile Include="P53\Tests53.cs" />
+    <Compile Include="P572\SolutionP572.cs" />
     <Compile Include="P58\Solution58.cs" />
     <Compile Include="P58\Tests58.cs" />
     <Compile Include="P5\Solution5.cs" />
