@@ -47,6 +47,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AMZ1\SolutionAMZ1.cs" />
+    <Compile Include="AMZ1\TestAMZ1.cs" />
+    <Compile Include="AMZ2\SolutionAMZ2.cs" />
+    <Compile Include="AMZ2\TestAMZ2.cs" />
     <Compile Include="Core\Array.cs" />
     <Compile Include="Core\ListNode.cs" />
     <Compile Include="IQ344677\SolutionIQ344677.cs" />
