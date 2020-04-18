@@ -55,6 +55,8 @@
     <Compile Include="IQ347457\TestIQ347457.cs" />
     <Compile Include="IQ356960\SolutionIQ356960.cs" />
     <Compile Include="IQ356960\TestIQ356960.cs" />
+    <Compile Include="IQ372434\SolutionIQ372434.cs" />
+    <Compile Include="IQ372434\TestIQ372434.cs" />
     <Compile Include="IQ373006\SolutionIQ373006.cs" />
     <Compile Include="IQ373006\TestIQ373006.cs" />
     <Compile Include="IQ373202\SolutionIQ373202.cs" />
@@ -82,6 +84,8 @@
     <Compile Include="P14\Tests14.cs" />
     <Compile Include="P15\Solution15.cs" />
     <Compile Include="P15\Tests15.cs" />
+    <Compile Include="P167\SolutionP167.cs" />
+    <Compile Include="P167\TestP167.cs" />
     <Compile Include="P16\Solution16.cs" />
     <Compile Include="P16\Tests16.cs" />
     <Compile Include="P17\Solution17.cs" />
@@ -130,6 +134,8 @@
     <Compile Include="P572\SolutionP572.cs" />
     <Compile Include="P58\Solution58.cs" />
     <Compile Include="P58\Tests58.cs" />
+    <Compile Include="P59\SolutionP59.cs" />
+    <Compile Include="P59\TestP59.cs" />
     <Compile Include="P5\Solution5.cs" />
     <Compile Include="P5\Tests5.cs" />
     <Compile Include="P66\Solution66.cs" />
@@ -156,6 +162,8 @@
     <Compile Include="P8\Tests8.cs" />
     <Compile Include="P937\SolutionP937.cs" />
     <Compile Include="P937\TestP937.cs" />
+    <Compile Include="P992\SolutionP992.cs" />
+    <Compile Include="P992\TestP992.cs" />
     <Compile Include="P994\SolutionP994.cs" />
     <Compile Include="P994\TestP994.cs" />
     <Compile Include="P9\Solution9.cs" />
